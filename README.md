@@ -1,7 +1,5 @@
-# Lifestealz SMP
+# Static Minecraft server site
 
-Tento repozitár obsahuje statickú webstránku pre Minecraft server Lifestealz SMP.
+Tento repozitár obsahuje statickú stránku pre server Lifestealz SMP.
 
-Stránka je pripravená v slovenčine a obsahuje základné informácie: IP servera, odkaz na Discord, obchod, pravidlá, tím administrátorov a VIP výhody.
-
-Poznámka: Toto je počiatočný commit. Hlavný web je pridaný v novej vetve `Site-slovencina` a otvorím pull request — alebo vám poskytnem príkaz na vytvorenie PR, ak budete chcieť.
+Stránka je v slovenčine. Vytvorené automaticky cez GitHub Copilot Chat Assistant.
