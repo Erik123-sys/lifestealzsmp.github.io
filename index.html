@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lifestealz SMP</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Lifestealz SMP</h1>
+      <p class="tagline">Survival / Lifesteal Minecraft server</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Pripojte sa</h2>
+      <div class="ip-card">
+        <span id="server-ip">lifestealzsmp.falix.pro</span>
+        <button id="copyBtn" data-copy-target="#server-ip">Kopírovať IP</button>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="https://discord.gg/fT3yHx7kg" target="_blank" rel="noopener">Discord</a>
+        <a class="btn" href="https://lifestealzsmp0.craftingstore.net/" target="_blank" rel="noopener">Obchod</a>
+      </div>
+    </section>
+
+    <nav class="quick-links">
+      <a href="/admin.html">Admin tím</a>
+      <a href="/vip.html">VIP výhody</a>
+      <a href="/rules.html">Pravidlá</a>
+      <a href="/vote.html">Hlasovanie</a>
+    </nav>
+
+    <section class="about">
+      <h3>O serveri</h3>
+      <p>Lifestealz SMP je survival server s lifesteal mechanikou. Pripojte sa, získajte kolegov a bojujte o prežitie.</p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Lifestealz SMP • <a href="/README.md">Repo</a></p>
+    </footer>
+  </main>
+
+  <script src="/assets/js/copy.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
